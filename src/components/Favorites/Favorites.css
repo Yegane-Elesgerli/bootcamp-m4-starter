@@ -15,6 +15,7 @@
 
 .favorites__list {
     margin-bottom: 24px;
+
 }
 
 .favorites__save {
@@ -30,4 +31,16 @@
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
+}
+
+
+.favorites__save:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
